@@ -159,7 +159,7 @@ def RunTheGame():
                 break
 
         
-        print(math.ceil(BallXVel) , math.ceil(BallYVel))
+        #print(math.ceil(BallXVel) , math.ceil(BallYVel))
         BallMovement(BALL)
         Movement()
         DrawAndRender()
